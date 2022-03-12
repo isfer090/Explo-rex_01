@@ -1,0 +1,618 @@
+
+@media (max-width: 1400px) {
+    .header-section{
+        padding: 2px 0;
+    }
+    .primary-menu ul li a {
+        font-size: 15px;
+    }
+    .vdo-right h2 {
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .vdo-right p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .i-tems {
+        width: 32%;
+        margin-right: 2%;
+    }
+    .t-coment {
+        box-shadow: 8px 8px 24px -9px;
+        padding: 30px 30px;
+        box-sizing: border-box;
+        margin-bottom: 40px;
+        border-radius: 5px;
+        position: relative;
+    }
+    .t-coment P{
+        font-size: 16px;
+    }
+    .t-coment::before {
+        content: "\f10d";
+        font-family: FontAwesome;
+        font-size: 105px;
+        position: absolute;
+        opacity: .15;
+        top: -7px;
+        left: 35px;
+    }
+    .t-user-img img {
+        width: 62px;
+        height: 60px;
+        border-radius: 50%;
+        float: left;
+        margin-right: 20px;
+    }
+    .t-user-img img {
+        width: 62px;
+        height: 60px;
+        border-radius: 50%;
+        float: left;
+        margin-right: 20px;
+    }
+    .t-user-bio h4 {
+        font-size: 17px;
+        margin-bottom: 2px;
+    }
+    .t-user-bio span {
+        font-size: 15px;
+    }
+    .t-user-bio {
+        top: 8px;
+    }
+    .bi-1_content h3 {
+        font-size: 22px;
+        margin-bottom: 4px;
+    }
+    .bi-1_content p {
+        line-height: 22px;
+        font-size: 15px;
+    }
+    .bi-1 img {
+        width: 270px;
+    }
+    .bi-2_content h3 {
+        font-size: 22px;
+        margin-bottom: 4px;
+    }
+    .bi-2_content p {
+        line-height: 22px;
+        font-size: 15px;
+    }
+    .bi-2 img {
+        width: 270px;
+    }
+
+}
+
+
+@media  (max-width:1300px) {
+    .mid-content{
+        width: 1000%;
+        max-width: 100%;
+    }
+    .team-members .member{
+        margin-left: 35px;
+    }
+    .member {
+        width: 19%;
+        margin-right: 2%;
+    }
+    .member img {
+        width: 100%;
+        height: auto;
+    }
+    .member-bio {
+        padding: 5px 0px;
+        background-color: white;
+        border-radius: 0 0 5px 5px;
+    }
+    .member-bio h4 {
+        margin-bottom: 2px;
+        font-size: 19px;
+    }
+    .member-bio p {
+        font-weight: 300;
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .banner{
+        background-position: -63px 148px;
+    }
+    .header-section{
+        padding-bottom: 65px;
+        position: absolute;
+    }
+    .header-logo {
+        width: 100%;
+    }
+    .header-menu {
+        margin-top: -18px;
+        width: 70%;
+    }
+    .header-logo img {
+        margin-left: 10px;
+    }
+    .primary-menu {
+        padding-top: 19px;
+        padding-left: 18px;
+    }
+    .primary-menu ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .primary-menu span {
+        visibility: visible;
+        font-size: 40px;
+        color: #4343ca;
+        cursor: pointer;
+    }
+    .header-btn {
+        margin-top: 19px;
+    }
+    .header-button {
+        margin-top: -13px;
+        width: 30%;
+        text-align: right;
+        box-sizing: border-box;
+        padding-right: 20px;
+    }
+    .vdo-left {
+        width: 100%;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    .vdo-right {
+        width: 95%;
+    }
+    .vdo-section {
+        height: 490px;
+        padding-top: 80px;
+        padding-top: 45px;
+    }
+    .vdo-right h2 {
+        margin-bottom: 10px;
+    }
+    .service-box {
+        width: 45%;
+    }
+    .p-content {
+        margin-left: 0;
+        padding: 0px 30px;
+    }
+    .p-box {
+        width: 100%;
+        margin-left: 0;
+    }
+    .member {
+        margin-left: 35px;
+    }
+    .blog-item {
+        padding: 0px 40px;
+    }
+    .bi-1 {
+        padding: 0px 5px;
+    }
+    .bi-2 {
+        padding: 0px 5px;
+    }
+    .bi-1 img{
+        width: 100%;
+        margin-bottom: 13px;
+    }
+    .bi-2 img{
+        width: 100%;
+        margin-bottom: 13px;
+    }
+    .bi-1_content{
+        padding: 15px 15px;
+    }
+    .bi-2_content{
+        padding: 15px 15px
+    }
+    .blog-section {
+        padding: 40px 0;
+    }
+    .i-tems {
+        width: 85%;
+        margin-right: 0;
+        float: none;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .i-tems:last-child {
+        width: 85%;
+        margin-right: 0;
+        float: none;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+    .contact-section {
+        padding-top: 80px;
+    }
+    .f-items {
+        border-bottom: 2px solid darkgrey;
+    }
+    .feed-back-section {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .contact-form {
+        margin-top: 50px;
+        width: 100%;
+        padding: 0 50px;
+        box-sizing: border-box;
+    }
+    .contact-form h4 {
+        margin-bottom: 15px;
+    }
+    .footer-contact-form {
+        margin-top: 40px;
+    }
+    .contact-map {
+        width: 100%;
+        padding: 0 60px;
+        box-sizing: border-box;
+    }
+    .team-members .member {
+        width: 35%;
+        margin-left: 35px;
+        float: none;
+        margin: auto;
+        display: inline-block;
+        margin-bottom: 40px;
+        margin-right: 40px;
+    }
+    .team-members {
+        padding: 0 40px;
+        text-align: center;
+    }
+  
+
+}
+
+@media (max-width: 780px) {
+    
+    .header-section{
+        position: absolute;
+    }
+    .banner{
+        background-size: cover;
+        background-position: -55px 64px;
+        padding-top: 145px;
+        padding-bottom: 90px;
+    }
+    .banner-content h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+        font-weight: 200;
+      }
+    .banner-content h1 {
+        font-size: 45px;
+        margin-bottom: 30px;
+        font-weight: 600;
+      }
+      .vdo-section {
+        height: 520px;
+        padding-top: 45px;
+        padding-top: 45px;
+      }
+      .vdo-right h2 {
+        margin-bottom: 10px;
+      }
+      .service-box {
+        width: 40%;
+      }
+      .service-item {
+        margin-left: 50px;
+      }
+      .service h2 {
+        margin-bottom: 20px;
+        font-size: 40px;
+      }
+      .service-text p {
+        font-size: 16px;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0px 15px;
+        margin: auto;
+      }
+      .service-box{
+          box-sizing: border-box;
+          padding: 0px 10px;
+      }
+      .service-h2{
+        margin-bottom: 20px;
+        font-size: 40px;
+        width: 75%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 15px;
+        line-height: 40px;
+      }
+      .service-content{
+          text-align: left !important;
+          width: 100%;
+      }
+      .service-content h2{
+          font-size: 25px;
+          margin-bottom: 5px;
+          margin: 0;
+          text-align: center;
+          margin-bottom: 10px;
+      }
+      .service-content p{
+          font-size: 16px;
+          text-align: center;
+      }
+      .service-icon {
+        margin-top: 12px;
+        width: 100%;
+      }
+      .service-content h2 {
+        margin-top: 2px;
+      }
+    .p-content {
+        margin-left: 0;
+        padding: 0px 30px;
+    }
+    .p-box {
+        width: 100%;
+        margin-left: 0;
+    }
+    .member{
+        width: 40%;
+        margin-bottom: 40px;
+    }
+    .member-bio{
+        padding: 15px;
+        padding-top: 8px;
+    }
+    .member-bio h4{
+        margin-bottom: 2px;
+        font-weight: 600;
+    }
+    .member-bio p{
+        font-weight: 300;
+    }
+    .team-section{
+        padding: 60px 0px;
+    }
+    .team-section {
+        padding: 30px 0px;
+      }
+    .newsletter_section{
+        padding: 30px 0;
+    }
+    .bt-1 {
+        width: 100%;
+        padding: 8px 30px;
+    }
+    .bt-1 h2{
+        text-align: left;   
+        
+    }
+    .bt-2 {
+        width: 100%;
+        padding-left: 40px;
+    }
+    .bt-2 p{
+        text-align: left;
+        font-size: 16px;
+    }
+    .blog-title {
+        padding: 30px 0;
+        padding-bottom: 55px;
+    }
+    .blog-item{
+        text-align: center;
+    }
+    .bi-1{
+        padding: 0;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .bi-1 img {
+        width: 100%;
+    }
+    .bi-1_content {
+        padding: 15px 15px;
+    }
+
+    .bt-2 {
+        width: 100%;
+        padding: 8px 30px;
+    }
+    .bt-2 h2{
+        text-align: left;
+        
+    }
+    .bt-2 {
+        width: 100%;
+        padding-left: 40px;
+    }
+    .bt-2 p{
+        text-align: left;
+        padding-left: 40px;
+    }
+    .blog-title {
+        padding: 30px 0;
+        padding-bottom: 55px;
+    }
+    .bi-2{
+        padding: 0;
+        width: 100%;
+    }
+    .bi-2 img {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .bi-2_content {
+        padding: 15px 15px;
+    }
+    .blog-item {
+        padding: 0 30px;
+    }
+    .blog-section {
+        padding: 35px 0;
+    }
+    .f-items {
+        margin-top: 80px;
+    }
+    .contact-form {
+        margin-top: 50px;
+        width: 100%;
+        padding: 0 35px;
+        box-sizing: border-box;
+    }
+    .footer p {
+        font-size: 18px;
+    }
+    .footer {
+        margin-top: 60px;
+        padding: 15px 15px;
+    }
+    .contact-map {
+        width: 100%;
+        padding: 0 40px;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width:600px) {
+    .p-content {
+        margin-left: 0;
+        padding: 0px 30px;
+    }
+    .p-box {
+        width: 100%;
+        margin-left: 0;
+    }
+    .team-members{
+        padding: 30px;
+    }
+    .member{
+        width: 100%;
+        margin-left: 0px !important;
+    }
+    .member img {
+        width: 100%;
+        height: auto;
+    }
+    .team-section {
+    padding: 30px 0px;
+    }
+    .f-items {
+        margin-top: 60px;
+    }
+    .footer p {
+        font-size: 16px;
+    }
+    .contact-map {
+        width: 100%;
+        padding: 0 28px;
+        box-sizing: border-box;
+    }
+    .team-members .member {
+        width: 90%;
+        float: none;
+        margin: auto;
+        display: inline-block;
+        margin-bottom: 60px;
+    }
+    .team-members {
+        padding: 0 40px;
+        text-align: center;
+    }
+}
+
+@media (max-width:460px) {
+    .banner{
+        background-size: cover;
+        background-position: -55px 64px;
+        padding-top: 145px;
+        padding-bottom: 90px;
+    }
+    .defalt-btn{
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+      .banner-content h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: 200;
+      }
+      .banner-content h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+        font-weight: 600;
+      }
+      .vdo-right h2 {
+        margin-bottom: 10px;
+      }
+    .p-content {
+        margin-left: 0;
+        padding: 0px 30px;
+    }
+    .p-box {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .member{
+        width: 100%;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+    .member-bio{
+        padding: 15px;
+        padding-top: 8px;
+    }
+    .member-bio h4{
+        margin-bottom: 2px;
+        font-weight: 600;
+    }
+    .member-bio p{
+        font-weight: 300;
+    }
+    .team-section{
+        padding: 60px 0px;
+    }
+    .f-items {
+        margin-top: 55px;
+    }
+    .contact-map {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    .email-btn {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .service-item {
+        margin-left: 0;
+        padding: 0px 40px;
+    }
+    .service-box {
+        width: 100%;
+        margin-bottom: -10px;
+    }
+    .p-text {
+        padding: 0 20px;
+        margin-bottom: -35px;
+    }
+
+
+}
